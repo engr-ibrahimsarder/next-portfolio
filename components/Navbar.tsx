@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { motion } from 'framer-motion';
-import image from '@/assets/logo.png';
+import image from '@/public/assets/logo.png';
 import Image from 'next/image';
 
 const Navbar = () => {
@@ -61,6 +61,11 @@ const Navbar = () => {
           className='px-4 py-2 rounded-md uppercase text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'
           >Resume</motion.button>
           </a>
+        </div>
+        <div className='w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group'>
+        <span className='w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300'></span>
+        <span className='w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-3 transition-all ease-in-out duration-300'></span>
+        <span className='w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-1 transition-all ease-in-out duration-300'></span>
         </div>
       </div>
     </div>
