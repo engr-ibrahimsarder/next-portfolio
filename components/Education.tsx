@@ -1,39 +1,22 @@
 import React, { useState } from 'react';
 import SectionTitle from './SectionTitle';
-import ReactBD from './works/ReactBD';
-import Apple from './works/Apple';
-import Facebook from './works/Facebook';
 
-const Experience = () => {
-  const [workReactBd, setWorkReactBd] = useState(false);
-  const [workApple, setWorkApple] = useState(false);
-  const [workFacebook, setWorkFacebook] = useState(false);
-
-  const handleReactBD = () =>{
-    setWorkReactBd(true);
+const Education = () => {
+  const [ssc, setSsc] = useState(false);
+  const handleSsc = () =>{
+    setSsc(true);
     setWorkApple(false);
     setWorkFacebook(false);
   }
-  const handleApple = () =>{
-    setWorkReactBd(false);
-    setWorkApple(true);
-    setWorkFacebook(false);
-  }
-  const handleFacebook = () =>{
-    setWorkReactBd(false);
-    setWorkApple(false);
-    setWorkFacebook(true);
-  }
-
   return (
-    <section id='#experience'
+    <section id='#education'
     className='max-w-containerXs mx-auto py-10 lgl:py-24 px-4'
     >
-      <SectionTitle title="Where I have worked"></SectionTitle>
+      <SectionTitle title="My Academic Education"></SectionTitle>
       <div className='w-full mt--10 flex flex-col md:flex-row gap-16'>
         <ul className='md:w-32 flex flex-col'>
-          <li onClick={handleReactBD}
-          className={`${workReactBd ? 
+          <li onClick={handleSsc}
+          className={`${wor ? 
             "border-l-textGreen text-textGreen" :
             "border-l-textDark text-textDark "
           }
@@ -69,4 +52,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Education;
