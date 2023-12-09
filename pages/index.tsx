@@ -1,4 +1,4 @@
-import LiftSide from '@/components/LiftSide'
+import LeftSide from '@/components/LeftSide'
 import Navbar from '@/components/Navbar'
 import RightSide from '@/components/RightSide'
 import Head  from 'next/head'
@@ -6,6 +6,8 @@ import { motion } from 'framer-motion';
 import Banner from '@/components/Banner'
 import About from '@/components/About';
 import Experience from '@/components/Experience';
+import Education from '@/components/Education';
+import Projects from '@/components/Projects';
 
 export default function Home() {
   return (
@@ -23,13 +25,15 @@ export default function Home() {
        animate={{opacity: 1}}
        transition={{duration:1.5}}
       className='hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0'>
-      <LiftSide></LiftSide>
+      <LeftSide/>
       </motion.div>
       <div className='h-[88vh] w-full mx-auto p-4'>
-      <Banner></Banner>
-      <About></About>
-      <Experience></Experience>
+      <Banner/>
+      <About/>
+      {/* <Experience></Experience> */}
+      <Education></Education>
       {/* Project */}
+      <Projects/>
       {/* Archive */}
       {/* Contact */}
       {/* Footer */}

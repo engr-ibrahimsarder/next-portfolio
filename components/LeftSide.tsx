@@ -2,7 +2,7 @@ import React from 'react';
 import { TbBrandGithub, TbBrandInstagram, TbBrandLinkedin,  } from "react-icons/tb";
 import { SiCodeforces } from "react-icons/si";
 
-const LiftSide = () => {
+const LeftSide = () => {
   return (
     <div className='w-full h-full flex flex-col items-center justify-end gap-4 text-textLight'>
      <div  className='flex flex-col gap-4'>
@@ -32,4 +32,4 @@ const LiftSide = () => {
   );
 };
 
-export default LiftSide;
+export default LeftSide;
