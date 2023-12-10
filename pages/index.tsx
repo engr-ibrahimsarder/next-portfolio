@@ -8,6 +8,7 @@ import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import Projects from '@/components/Projects';
+import Archive from '@/components/Archive';
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       {/* Project */}
       <Projects/>
       {/* Archive */}
+      <Archive/>
       {/* Contact */}
       {/* Footer */}
       </div>
