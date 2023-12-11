@@ -8,7 +8,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Projects = () => {
   return (
-    <section id="projects" className="max-w-container mx-auto lgl:px-20 py-24">
+    <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Some thing I have Built"></SectionTitle>
       <div className="w-full flex flex-col items-center justify-between gap-8">
         {/* project one */}

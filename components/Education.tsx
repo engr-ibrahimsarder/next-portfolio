@@ -25,7 +25,7 @@ const Education = () => {
     setBsc(true);
   }
   return (
-    <section id='#education'
+    <section id='education'
     className='max-w-containerXs mx-auto py-10 lgl:py-24 px-4'
     >
       <SectionTitle title="My Academic Education"></SectionTitle>
