@@ -12,22 +12,22 @@ const Archive = () => {
       </div>    
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-24">
         <ArchiveCard
-        title="Educare English Learning Academy"
+        title="Car Repair"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime dolorem ducimus corrupti quisquam eaque magni nemo numquam a doloribus, odio sunt odit eligendi accusantium fuga unde voluptates ab ipsum!"
         listItems= {["React", 'TailwindCss', "Firebase"]}
-        link="https://ibrahim-sarder-portfolio.netlify.app/"
+        link="https://genius-car-services-d3e3a.firebaseapp.com/"
         />
         <ArchiveCard
-        title="Educare English Learning Academy"
+        title="Doctor Online Service"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime dolorem ducimus corrupti quisquam eaque magni nemo numquam a doloribus, odio sunt odit eligendi accusantium fuga unde voluptates ab ipsum!"
         listItems= {["React", 'TailwindCss', "Firebase"]}
-        link="https://ibrahim-sarder-portfolio.netlify.app/"
+        link="https://doctors-portal-8b078.firebaseapp.com/"
         />
         <ArchiveCard
-        title="Educare English Learning Academy"
+        title="E-commerce"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime dolorem ducimus corrupti quisquam eaque magni nemo numquam a doloribus, odio sunt odit eligendi accusantium fuga unde voluptates ab ipsum!"
         listItems= {["React", 'TailwindCss', "Firebase"]}
-        link="https://ibrahim-sarder-portfolio.netlify.app/"
+        link="https://ema-john-simple-b099e.firebaseapp.com/"
         />
         {
           showMore && (
@@ -38,10 +38,10 @@ const Archive = () => {
             transition={{delay:0.5}}
             >
                <ArchiveCard
-        title="Educare English Learning Academy"
+        title="Online Learning"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime dolorem ducimus corrupti quisquam eaque magni nemo numquam a doloribus, odio sunt odit eligendi accusantium fuga unde voluptates ab ipsum!"
         listItems= {["React", 'TailwindCss', "Firebase"]}
-        link="https://ibrahim-sarder-portfolio.netlify.app/"
+        link="https://online-explore.firebaseapp.com/"
         />
             </motion.div>
             <motion.div
@@ -50,10 +50,10 @@ const Archive = () => {
             transition={{delay:0.5}}
             >
                <ArchiveCard
-        title="Educare English Learning Academy"
+        title="Weather App"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime dolorem ducimus corrupti quisquam eaque magni nemo numquam a doloribus, odio sunt odit eligendi accusantium fuga unde voluptates ab ipsum!"
         listItems= {["React", 'TailwindCss', "Firebase"]}
-        link="https://ibrahim-sarder-portfolio.netlify.app/"
+        link="https://weatherea.netlify.app/"
         />
             </motion.div>
             <motion.div
@@ -62,10 +62,10 @@ const Archive = () => {
             transition={{delay:0.5}}
             >
                <ArchiveCard
-        title="Educare English Learning Academy"
+        title="Mechinery Tools"
         des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime dolorem ducimus corrupti quisquam eaque magni nemo numquam a doloribus, odio sunt odit eligendi accusantium fuga unde voluptates ab ipsum!"
         listItems= {["React", 'TailwindCss', "Firebase"]}
-        link="https://ibrahim-sarder-portfolio.netlify.app/"
+        link="https://machinery-parts-4effc.firebaseapp.com/"
         />
             </motion.div>
             </>

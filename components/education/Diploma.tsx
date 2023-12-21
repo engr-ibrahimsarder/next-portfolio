@@ -9,7 +9,7 @@ const Diploma = () => {
     transition={{duration:0.1}}
     className='w-full'
     >
-      <h3 className='flex gap-1 font-medium text-xl font-titleFont'>Diploma <span className='text-textGreen tracking-wide'>@Computer Science</span></h3>
+      <h3 className='flex gap-1 font-medium text-xl font-titleFont'>Diploma <span className='text-textGreen tracking-wide'>In Computer Science</span></h3>
       <p className='text-sm mt-1 font-medium text-textDark'>2018 Aug - 2022 Dec</p>
       <ul className='mt-6 flex flex-col gap-3'>
         <li className='text-base flex gap-2 text-textDark'><span className='text-textGreen mt-1'><TiArrowForward/></span> Barisal Polytechnic Institute.</li>

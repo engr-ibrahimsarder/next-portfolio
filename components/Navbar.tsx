@@ -13,6 +13,7 @@ const Navbar = () => {
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) =>{
     e.preventDefault();
+    setShowMenu(false);
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "")
     const elem = document.getElementById(targetId);
@@ -25,6 +26,11 @@ const Navbar = () => {
       link.classList.remove("active");
     });
     e.currentTarget.classList.add("active");
+  }
+  function handleClick(e: any){
+    if(e.target.contains(ref.current)){
+      setShowMenu(false);
+    }
   }
   return (
     <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4'>
@@ -107,7 +113,9 @@ const Navbar = () => {
         </div>
         {
           showMenu && (
-            <div ref={(node) => (ref.current = node)}
+            <div
+             ref={(node) => (ref.current = node)}
+             onClick={handleClick}
             className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end'
             >
               <motion.div 
