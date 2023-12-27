@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 const Archive = () => {
   const [showMore, setShowMore] = useState(false);
   return (
-    <div className="max-w-contentContainer mx-auto px-4 py-24">
+    <div className="max-w-contentContainer mx-auto px-4 sm:14 lg:py-24">
       <div className="w-full flex flex-col items-center">
         <h2 className="text-3xl font-titleFont font-semibold">Other Noteworthy Projects</h2>
         <p className="text-sm font-titleFont text-textGreen">View the archive</p>
