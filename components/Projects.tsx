@@ -50,8 +50,8 @@ const Projects = () => {
           </div>
           </div>
         </div>
-         {/* project two */}
-         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          {/* project two */}
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a href=""
             className="w-full xl:w-1/2 h-auto relative group"
@@ -64,8 +64,8 @@ const Projects = () => {
                 />
               </div>
             </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-start text-right xl:-mr-16 z-10">
-            <p className="font-titleFont text-textGreen text-sm tracking-wide">
+          <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-start  xl:-mr-16 z-10">
+          <p className="font-titleFont text-textGreen text-sm tracking-wide">
               Featured Project</p>
               <h3 className="text-2xl font-bold">E-Commerce</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">This is E-Commerce Website. Website is Mobile responsive and web view.The website is user friendly.</p>
@@ -75,17 +75,17 @@ const Projects = () => {
                 <li>ExpressJs</li>
                 <li>TailwindCss</li>
                 <li>Firebase</li>
-                <li>React Router</li>
+                {/* <li>React Router</li> */}
               </ul>
               <div className="text-2xl flex gap-4">
+              <a href="https://bdfashonova.firebaseapp.com/"
+                target="-blank"
+                className="hover:text-textGreen duration-300"
+                ><RxOpenInNewWindow/></a>
                 <a href="https://github.com/ibrahimsarder96/fashionova-client-side"
                 target="-blank"
                 className="hover:text-textGreen duration-300"
                 ><TbBrandGithub/></a>
-                <a href="https://bdfashonova.firebaseapp.com/"
-                target="-blank"
-                className="hover:text-textGreen duration-300"
-                ><RxOpenInNewWindow/></a>
               </div>
           </div>
           </div>
