@@ -14,7 +14,8 @@ const Projects = () => {
         {/* project one */}
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
-            <a href=""
+            <a href="https://online-explore.firebaseapp.com/"
+            target="-blank"
             className="w-full xl:w-1/2 h-auto relative group"
             >
               <div>
@@ -53,7 +54,8 @@ const Projects = () => {
           {/* project two */}
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
-            <a href=""
+            <a href="https://bdfashonova.firebaseapp.com/"
+            target="-blank"
             className="w-full xl:w-1/2 h-auto relative group"
             >
               <div>
@@ -93,7 +95,8 @@ const Projects = () => {
           {/* project three */}
           <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
-            <a href=""
+            <a href="https://weatherea.netlify.app/"
+            target="-blank"
             className="w-full xl:w-1/2 h-auto relative group"
             >
               <div>
